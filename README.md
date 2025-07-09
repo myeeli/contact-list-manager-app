@@ -156,6 +156,10 @@ This app allows users to:
 
 * Handle errors such as duplicate emails or missing fields directly on the screen
 
+## Design Approach
+
+This is a contact management app built using React, Node.js, and MongoDB. I chose MUI for styling to maintain a modern look with minimal custom CSS. For state management, I used React's built-in state hooks instead of external libraries to keep the setup lightweight. One trade-off I made was not implementing  authentication or pagination, since the focus was on functionality for now. Editing is done via pre-populating the form fields, which offers a smoother experience for users. Server-side filtering improves performance when dealing with larger datasets.
+
 ## Demo
 
 https://drive.google.com/file/d/12aue3cY_L-dKsurWleAd8CqkUJVKe951/view?usp=sharing

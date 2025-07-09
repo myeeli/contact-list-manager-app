@@ -63,6 +63,14 @@ npm install
 cd contact-manager-backend
 npm install
 ```
+### 4. Create .env file in the contact-manager-backend folder under the root add the below variables in the .env file
+
+```bash
+MONGO_URI=mongodb://localhost:27017/contact-manager
+PORT=4500
+
+```
+
 
 ---
 
@@ -89,7 +97,7 @@ You can also use **MongoDB Compass** to visualize data and check collections.
 Open terminal in `contact-manager-backend` folder:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Server will run on `http://localhost:4500`

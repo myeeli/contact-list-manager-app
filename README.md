@@ -46,7 +46,7 @@ contact-list-manager-app/
 ### 1. Clone the repository
 
 ```bash
-https://github.com/yourusername/contact-list-manager-app.git
+https://github.com/myeeli/contact-list-manager-app.git
 cd contact-list-manager-app
 ```
 

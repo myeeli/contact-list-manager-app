@@ -1,0 +1,29 @@
+.add-contact-container {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #e9d5ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-contact-container.MuiPaper-root {
+  background-color: #e9d5ff;
+}
+
+.add-contact-title {
+  text-align: center;
+  color: #4a148c;
+}
+
+.error-message {
+  color: #d32f2f;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.add-button {
+  width: 100px;
+  background-color: #6c63ff !important;
+  align-self: center;
+  margin-left: 5vw;
+}

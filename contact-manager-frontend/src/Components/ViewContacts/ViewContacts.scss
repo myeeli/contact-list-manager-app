@@ -1,0 +1,46 @@
+.contacts-container {
+  width: 50vw;
+  height: 62vh;
+  background-color: #e9d5ff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-container.MuiPaper-root {
+  background-color: #e9d5ff;
+}
+
+.search-wrapper {
+  margin-bottom: 16px;
+}
+
+.contacts-list {
+  background-color: #f3e8ff;
+  border-radius: 8px;
+  padding: 12px;
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 3vw;
+  height: 36vh;
+  color: #4a148c;
+}
+
+.no-contacts {
+  color: #888;
+  text-align: center;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.bordered {
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-email {
+  font-size: 0.9em;
+  color: #666;
+}

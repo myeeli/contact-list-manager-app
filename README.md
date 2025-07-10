@@ -6,7 +6,7 @@ A web application built using **React**, **Node.js (Express)**, and **MongoDB**.
 
 ## Features
 
-* Add new contacts (Filed Names : first name, last name, email)
+* Add new contacts (Field Names : first name, last name, email)
 * Edit existing contacts
 * Delete contacts with confirmation
 * Search contacts by name or email
